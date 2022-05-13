@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Document</title>
+    <style>
+        html {
+  height: 100%;
+}
+body {
+            min-height: 100%;
+}
+        .mainGrid {
+            display: grid;
+    
+            position: absolute; left: 0px; right: 0px; bottom: 0px; top: 0px; 
+             grid-template-columns: min-content 1fr; 
+            grid-template-rows: auto 1fr auto;
+           grid-template-areas:
+            "hdr hdr"
+            "mnu mainContent"
+            "ftr ftr"; 
+        }
+           .hdr
+            {
+               grid-area: hdr;
+            }
+            .ftr
+            {
+               grid-area:ftr; 
+            }
+            .mnu
+            { grid-area:mnu}
+            .mainContent
+            {
+               grid-area:mainContent
+            } 
+    </style>
+</head>
+<body>
+    <div class="mainGrid">
+
+   
+    <header class="hdr">
+        header  header  header  header  header  header  header  header  header  header  header  header  header  
+    </header>
+
+<div class="mnu">
+
+<ul>
+<li>test</li>
+<li>test</li>
+<li>test</li>
+<li>test</li>
+<li>test</li>
+</ul>
+
+
+
+
+    </div> 
+    <div class="mainContent">
+        На посту ГАИ останавливают машину и осматривают багажник. 
+
+        В багажнике — 10 огромных ножей. Гаишник: — Зачем вам столько холодного оружия? 
+        Водитель: — Я жонглер, работаю в цирке, жонглирую ножами. Гаишник: — Не верю, ну-ка 
+        покажите. Водитель стоит на обочине дороги и жонглирует ножами. В проезжающей 
+        мимо машине водитель говорит жене: — Слава богу, я пить бросил. Смотри, какие тесты выдумали! anekdotov.net
+        
+        
+        
+            </div>
+
+    <footer class="ftr">footer copyright footer copyright footer copyright footer copyright footer copyright footer copyright footer copyright footer copyright footer copyright   </footer>
+
+</div>
+</body>
+</html>
